@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+    },
+    "colorize.languages": [
+        "javascript",
+        "typescript",
+    ]
+}

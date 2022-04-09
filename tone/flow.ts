@@ -6,9 +6,9 @@ import { SensenToneColor } from "../tone-color";
 const SensenFlowTone = new SensenToneColor('flow',{
 
 
-    text: '#76838f',
+    text: '#a9bbcc',
     
-    textLite: '#a9bbcc',
+    textLite: '#c4d9ed',
     
     textHigh: '#40464d',
 
