@@ -1,0 +1,11 @@
+{
+ "name": "sensen-plugin-themecolor",
+ "version": "0.0.2",
+ "main": "index.js",
+ "author": "IanCarter",
+ "license": "MIT",
+ "scripts": {
+  "watch": "tsc -watch",
+  "build": "tsc"
+ }
+}
