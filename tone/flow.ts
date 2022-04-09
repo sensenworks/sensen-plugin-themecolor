@@ -15,7 +15,7 @@ const SensenFlowTone = new SensenToneColor('flow',{
 
     layer: '#2d333b',
     
-    layerLite: '#444d59',
+    layerLite: '#38404a',
     
     layerHigh: '#22272e',
     
