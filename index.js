@@ -1,5 +1,3 @@
-import { SensenPaletteColor } from "./palette-color.js";
-import { SensenToneColor } from "./tone-color.js";
 export class ThemeColor {
     /**
      * ThemeColor Variable Name
@@ -25,13 +23,15 @@ export default class SensenThemeColor {
     render(persist) {
         this.persist = typeof persist == 'boolean' ? persist : true;
         this.input.forEach(input => {
-            if (input instanceof SensenPaletteColor ||
-                input instanceof SensenToneColor) {
-                this.build(input.Mixture());
-            }
-            else {
-                throw (`This ThemeColor is not supported < ${input.name || 'undefined'} >`);
-            }
+            // if(
+            //     input instanceof SensenPaletteColor ||
+            //     input instanceof SensenToneColor
+            // ){
+            this.build(input.Mixture());
+            // }
+            // else{
+            //     throw (`This ThemeColor is not supported < ${ input.name || 'undefined' } >`)
+            // }
         });
         return this;
     }

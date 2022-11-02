@@ -15,7 +15,7 @@
         "strict": true,
         "module": "ES2020",
         "esModuleInterop": true,
-        "types": ["node"],
+        // "types": ["node"],
         // "outDir": "libs",
         // "rootDir": "./",
     },

@@ -74,23 +74,23 @@ export default class SensenThemeColor{
 
         this.input.forEach(input=>{
 
-            if(
+            // if(
                 
-                input instanceof SensenPaletteColor ||
+            //     input instanceof SensenPaletteColor ||
 
-                input instanceof SensenToneColor
+            //     input instanceof SensenToneColor
                 
-            ){
+            // ){
 
                 this.build(input.Mixture())
                 
-            }
+            // }
 
-            else{
+            // else{
 
-                throw (`This ThemeColor is not supported < ${ input.name || 'undefined' } >`)
+            //     throw (`This ThemeColor is not supported < ${ input.name || 'undefined' } >`)
                 
-            }
+            // }
             
         })
 
