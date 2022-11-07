@@ -114,6 +114,7 @@ export default class SensenThemeColor {
                     key = k;
                 }
             }
+            return true;
         });
         if (key) {
             const next = this.input[key + 1] || this.input[toneKeys[0]];
@@ -140,6 +141,7 @@ export default class SensenThemeColor {
                     key = k;
                 }
             }
+            return true;
         });
         if (key) {
             const next = this.input[key + 1] || this.input[paletteKeys[0]];

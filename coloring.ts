@@ -93,30 +93,23 @@ export default class SensenColoring{
 
     }
 
-    static RGBToHSL(r:number, g:number, b:number) {
+    // static RGBToHSL(r:number, g:number, b:number) {
 
-        r /= 255;
-        g /= 255;
-        b /= 255;
+    //     r = r, g = g, b = b;
+
+    //     r /= 255; g /= 255; b /= 255;
       
+    //     // let cmin = Math.min(r,g,b),
+    //         // cmax = Math.max(r,g,b),
+    //         // delta = cmax - cmin,
+    //         let h = 0
+    //         // s = 0
+    //         // l = 0;
 
-        let cmin = Math.min(r,g,b),
-            cmax = Math.max(r,g,b),
-            delta = cmax - cmin,
-            h = 0,
-            s = 0,
-            l = 0;
-
-        return `${h}`;
+    //     return `${h}`;
             
-    }
+    // }
 
     /* RGB Manipulation - End */
     
-
-
-
-
-
-
 }

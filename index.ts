@@ -289,6 +289,8 @@ export default class SensenThemeColor{
             
             if(input.nature == '@tone'){ if(input.name == current){ key = k } }
             
+            return true;
+            
         })
 
         if(key){
@@ -325,6 +327,8 @@ export default class SensenThemeColor{
             if(key !== undefined){ return false }
             
             if(input.nature == '@palette'){ if(input.name == current){ key = k } }
+
+            return true;
             
         })
 

@@ -46,11 +46,4 @@ export default class SensenColoring {
     static RGBtoHex({ red, green, blue }) {
         return `#${((1 << 24) + (red << 16) + (green << 8) + blue).toString(16).slice(1)}`;
     }
-    static RGBToHSL(r, g, b) {
-        r /= 255;
-        g /= 255;
-        b /= 255;
-        let cmin = Math.min(r, g, b), cmax = Math.max(r, g, b), delta = cmax - cmin, h = 0, s = 0, l = 0;
-        return `${h}`;
-    }
 }
